@@ -1,0 +1,1 @@
+# npm-squizzy-2022
