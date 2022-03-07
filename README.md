@@ -1,5 +1,5 @@
 # npm-squizzy-2022
 
-- Version `0.0.3` 
+- Version `0.0.4` 
 
-- Commit pattern for release: `chore(release): x.x.x`
+- Commit pattern for release: `chore(release): vx.x.x`
