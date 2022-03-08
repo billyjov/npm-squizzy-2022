@@ -1,4 +1,4 @@
-name: npm-publish
+name: ci
 on:
   push:
     branches:
@@ -20,13 +20,13 @@ jobs:
         run: npm install -g @angular/cli
       - name: Build package
         run: npm run build:prod
-      - name: Run tests
-        run: ng test --watch=false
+      # - name: Run tests
+      #   run: ng test --watch=false
 
   npm-publish:
     name: npm-publish
     runs-on: ubuntu-latest
-    needs: build-package # wait for build
+    needs: build # wait for build
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
