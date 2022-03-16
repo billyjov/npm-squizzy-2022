@@ -1,4 +1,4 @@
-# NpmSquizzy2022 v0.0.8
+# NpmSquizzy2022 v0.0.8 beta
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
 
