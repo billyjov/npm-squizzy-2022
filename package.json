@@ -18,7 +18,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build:prod": "ng build --configuration=production"
+    "build:prod": "ng build --configuration=production && copyfiles package.json dist/npm-squizzy2022 && copyfiles README.md dist/npm-squizzy2022"
   },
   "dependencies": {
     "@angular/animations": "~13.1.0",
@@ -29,6 +29,7 @@
     "@angular/platform-browser": "~13.1.0",
     "@angular/platform-browser-dynamic": "~13.1.0",
     "@angular/router": "~13.1.0",
+    "copyfiles": "^2.4.1",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
