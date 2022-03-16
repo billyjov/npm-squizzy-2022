@@ -1,6 +1,6 @@
 {
   "name": "npm-squizzy2022",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,6 @@
     "test": "ng test",
     "build:prod": "ng build --configuration=production"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~13.1.0",
     "@angular/common": "~13.1.0",
