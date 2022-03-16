@@ -29,7 +29,7 @@ jobs:
           tag_message: "v%s"
           create_tag: "true"
           commit_pattern: "^chore\\(release\\): (\\S+)"
-          workspace: "dist/npm-squizzy2022"
+          workspace: "."
           publish_command: "yarn"
           publish_args: "--non-interactive"
         env: 
